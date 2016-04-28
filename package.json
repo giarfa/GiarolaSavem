@@ -2,10 +2,9 @@
   "name": "giarola-savem",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "author": "giarfa",
   "dependencies": {
-    "express": "^4.13.4",
-    "ejs": "^2.3.4"
+    "express": "^4.13.4"
   }
 }
