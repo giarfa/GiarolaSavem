@@ -13,7 +13,7 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 hr {
-  border-color: #f05f40;
+  border-color: #955251;
   border-width: 3px;
   max-width: 50px;
 }
@@ -24,11 +24,11 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #f05f40;
+  color: #955251;
 }
 a:hover,
 a:focus {
-  color: #eb3812;
+  color: #884044;
 }
 h1,
 h2,
@@ -44,7 +44,7 @@ p {
   margin-bottom: 20px;
 }
 .bg-primary {
-  background-color: #f05f40;
+  background-color: #955251;
 }
 .bg-dark {
   background-color: #222222;
@@ -71,14 +71,14 @@ aside {
   transition: all 0.35s;
 }
 .navbar-default .navbar-header .navbar-brand {
-  color: #f05f40;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  color: #955251;
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-  color: #eb3812;
+  color: #884044;
 }
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
@@ -89,11 +89,11 @@ aside {
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #f05f40;
+  color: #955251;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #f05f40 !important;
+  color: #955251 !important;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -126,12 +126,12 @@ aside {
     border-color: transparent;
   }
   .navbar-default.affix .navbar-header .navbar-brand {
-    color: #f05f40;
+    color: #955251;
     font-size: 1.5em;
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
-    color: #eb3812;
+    color: #884044;
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
@@ -139,7 +139,7 @@ aside {
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #f05f40;
+    color: #955251;
   }
 }
 header {
@@ -148,11 +148,12 @@ header {
   min-height: auto;
   text-align: center;
   color: white;
+  margin-top: 55px;
 }
 header .header-content {
   position: relative;
   text-align: center;
-  padding: 100px 15px 100px;
+  padding: 40px 15px;
   width: 100%;
 }
 header .header-content .header-content-inner h1 {
@@ -161,18 +162,22 @@ header .header-content .header-content-inner h1 {
   margin-top: 0;
   margin-bottom: 0;
 }
+header .header-content .header-content-inner h1 img {
+  margin: auto;
+}
 header .header-content .header-content-inner hr {
   margin: 30px auto;
 }
 header .header-content .header-content-inner p {
   font-weight: 300;
-  color: rgba(255, 255, 255, 0.7);
+  color: #ffffff;
   font-size: 16px;
   margin-bottom: 50px;
 }
 @media (min-width: 768px) {
   header {
     min-height: 100%;
+    margin-top: 0;
   }
   header .header-content {
     position: absolute;
@@ -186,6 +191,9 @@ header .header-content .header-content-inner p {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+  }
+  header .header-content .header-content-inner h1 {
+    margin-top: 50px;
   }
   header .header-content .header-content-inner p {
     font-size: 18px;
@@ -219,7 +227,7 @@ header .header-content .header-content-inner p {
   color: white;
   opacity: 0;
   display: block;
-  background: rgba(240, 95, 64, 0.9);
+  background: rgba(150, 79, 76, 0.9);
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -264,7 +272,7 @@ header .header-content .header-content-inner p {
   margin: 0 auto 20px;
 }
 .text-primary {
-  color: #f05f40;
+  color: #955251;
 }
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -320,8 +328,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: #ffffff;
-  background-color: #f05f40;
-  border-color: #f05f40;
+  background-color: #955251;
+  border-color: #955251;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -359,11 +367,11 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #f05f40;
-  border-color: #f05f40;
+  background-color: #955251;
+  border-color: #955251;
 }
 .btn-primary .badge {
-  color: #f05f40;
+  color: #955251;
   background-color: #ffffff;
 }
 .btn {
@@ -378,8 +386,8 @@ fieldset[disabled] .btn-primary.active {
 }
 /**/
 .btn-transparent-primary {
-  border: 1px solid #f05f40;
-  color: #f05f40;
+  border: 1px solid #955251;
+  color: #955251;
   background-color: transparent;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -387,10 +395,10 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-transparent-primary:hover,
 .btn-transparent-primary:focus {
-  border: 1px solid #f05f40; 
+  border: 1px solid #955251; 
   outline: 0; 
   color: #ffffff; 
-  background-color: #f05f40; 
+  background-color: #955251; 
 }
 .btn-transparent-default {
   border: 1px solid #ffffff;
@@ -404,7 +412,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-transparent-default:focus {
   border: 1px solid #ffffff; 
   outline: 0; 
-  color: #f05f40; 
+  color: #955251; 
   background-color: #ffffff; 
 }
 /**/
@@ -484,11 +492,18 @@ body {
   height: 80px;
   position: absolute;
   z-index: 100;
-  background-color: #f05f40;
+  background-color: #955251;
   color: white;
   border-radius: 100%;
   border: 7px solid #f1f1f1;
   text-align: center;
+}
+.timeline > li .timeline-image a {
+  color: white;
+}
+.timeline > li .timeline-image a:hover,
+.timeline > li .timeline-image a:focus {
+  text-decoration: none;
 }
 .timeline > li .timeline-image h4 {
   font-size: 10px;
@@ -518,6 +533,7 @@ body {
 .timeline .timeline-heading h4 {
   margin-top: 0;
   color: inherit;
+  font-size: 22px;
 }
 .timeline .timeline-heading h4.subheading {
   text-transform: none;
@@ -606,5 +622,22 @@ body {
 @media(min-width:767px) {
   #map { 
     height: 500px; 
+  }
+}
+#contact p > a {
+  color: black;
+  /*text-decoration: underline;*/
+}
+#contact p > strong {
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+}
+#contact h2 img {
+  width: 60%;
+  margin: auto;
+}
+@media(min-width:767px) {
+  #contact h2 img {
+    width: 40%;
   }
 }
