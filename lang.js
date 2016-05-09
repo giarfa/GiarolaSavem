@@ -57,7 +57,7 @@ exports.translations = {
 			event3: {
 				title: '1923 - 1932',
 				subtitle: '',
-				description: 'Dal Marsala OVO nasce il <b>Gran Cremovo Etichetta Nera</b>, che si afferma e partecipa co successo alle fiere campionarie vincendo <b>4 medaglie d\'oro</b>'
+				description: 'Dal Marsala OVO nasce il <b>Gran Cremovo Etichetta Nera</b>, che si afferma e partecipa con successo alle fiere campionarie vincendo <b>4 medaglie d\'oro</b>'
 			},
 			event4: {
 				title: '1945',
@@ -67,12 +67,12 @@ exports.translations = {
 			event5: {
 				title: '1950',
 				subtitle: '',
-				description: 'L\'azienda passa ai figli Arrigo e Gastone e si ingrandisce con l\'importazione di <b>Porto, Rum, Whisky e Cognac</b>. Giarola è tra le prime aziende certificate ad adottare cisterne di acciaio inossidabile.'
+				description: 'L\'azienda passa ai figli Arrigo e Gastone e si ingrandisce con l\'importazione di <b>Porto, Rum, Whisky e Cognac</b>. Giarola &egrave; tra le prime aziende certificate ad adottare cisterne di acciaio inossidabile.'
 			},
 			event6: {
 				title: '1960 - 1970',
 				subtitle: '',
-				description: 'Aumenta la capacita produttiva con una gamma di oltre cento prodotti che si affiancano a quelli tradizionali, raggiungendo una produzione media giornaliera di tredicimila bottiglie di <b>Liquori, Grappe, Frutta allo Spirito e Sciroppi</b>.'
+				description: 'Aumenta la capacit&agrave; produttiva con una gamma di oltre cento prodotti che si affiancano a quelli tradizionali, raggiungendo una produzione media giornaliera di tredicimila bottiglie di <b>Liquori, Grappe, Frutta allo Spirito e Sciroppi</b>.'
 			},
 			eventFinal: {
 				sentence: 'Sfoglia il</br>Company</br>Profile!',
@@ -81,7 +81,7 @@ exports.translations = {
 		},
 		map: {
 			sentence: 'Ti aspettiamo!',
-			button: 'portami là'
+			button: 'portami l&agrave;'
 		},
 		contact: {
 			title: 'Contatti',
