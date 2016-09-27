@@ -40,7 +40,11 @@ exports.translations = {
 			prod3: 'Amaro Monte Penice',
 			prod4: 'Grappa Moscato',
 			prod5: 'Marsala Fine I.P.',
-			prod6: 'Sambuca'
+			prod6: 'Sambuca',
+			aLotMore: 'E tanti altri ancora!',
+			discover: 'scoprili!',
+			link: 'prodotti',
+			productsPageTitle: 'Prodotti'
 		},
 		history: {
 			title: 'Storia',
@@ -127,7 +131,11 @@ exports.translations = {
 			prod3: 'Amaro Monte Penice',
 			prod4: 'Grappa Moscato',
 			prod5: 'Marsala Fine I.P.',
-			prod6: 'Sambuca'
+			prod6: 'Sambuca',
+			aLotMore: 'And a lot more!',
+			discover: 'discover them!',
+			link: 'products',
+			productsPageTitle: 'Products'
 		},
 		history: {
 			title: 'History',

@@ -1,0 +1,145 @@
+doctype html
+html(lang=lang)
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name='description', content='')
+    meta(name='author', content='@giarfa')
+    title='Giarola Savem | ' + translations.products.productsPageTitle
+    link(href='//netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css', rel='stylesheet')
+    link(href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800', rel='stylesheet', type='text/css')
+    link(href='//fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic', rel='stylesheet', type='text/css')
+    link(href='//fonts.googleapis.com/css?family=Poppins:600', rel='stylesheet', type='text/css')
+    link(href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css', rel='stylesheet', type='text/css')
+    link(rel='stylesheet', href='//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css', type='text/css')
+    link(rel='stylesheet', href='/css/creative-products.css', type='text/css')
+    //if lt IE 9
+      script(src='//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js') 
+      script(src='//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js')
+  body#page-top
+    nav#mainNav.navbar.navbar-default.navbar-fixed-top
+      .container
+        .navbar-header
+          button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand.page-scroll(href='/' + lang) Giarola
+        #bs-example-navbar-collapse-1.collapse.navbar-collapse
+          ul.nav.navbar-nav.navbar-right
+            li
+              a.page-scroll(href='/' + lang + '#about')=translations.menu.about
+            li
+              a.page-scroll(href='/' + lang + '#portfolio')=translations.menu.products
+            li
+              a.page-scroll(href='/' + lang + '#history')=translations.menu.history
+            li
+              a.page-scroll(href='/' + lang + '#video')=translations.menu.video
+            li
+              a.page-scroll(href='/' + lang + '#contact')=translations.menu.contact
+
+    header
+      .header-content
+        .header-content-inner
+          h1
+            img.img-responsive(src='//res.cloudinary.com/giarolasavem/image/upload/v1462391695/Logo1918b_rebgjd.svg')
+          br
+          p.hidden-xs=translations.header.longSentence
+      img.img-responsive.img-header(style='z-index:-1;', src='/img/bg-products.jpg')
+
+    aside.bg-dark
+      .container.text-center
+        .call-to-action.isotope-filters
+          a.btn.btn-transparent-filter.btn-transparent-filter-active.btn-xl.wow.fadeInUp(href='', data-filter='*') tutti
+          a.btn.btn-transparent-filter.btn-xl.wow.fadeInUp(href='', data-filter='.marsala', data-wow-delay='0.2s') marsala
+          a.btn.btn-transparent-filter.btn-xl.wow.fadeInUp(href='', data-filter='.penice', data-wow-delay='0.4s') penice
+
+    section.no-padding
+      .container-fluid
+        .row.no-gutter.grid
+          .col-lg-3.col-md-4.col-sm-6.grid-item.marsala
+            a.portfolio-box
+              img.img-responsive(src='//res.cloudinary.com/giarolasavem/image/upload/v1462263806/GranCremovo_rq4nfn.jpg')
+              .portfolio-box-caption
+                .portfolio-box-caption-content
+                  //.project-category.text-faded  Category 
+                  .project-name=translations.products.prod1
+          .col-lg-3.col-md-4.col-sm-6.grid-item
+            a.portfolio-box
+              img.img-responsive(src='//res.cloudinary.com/giarolasavem/image/upload/v1462263806/VermouthPremiumBianco_vvpu51.jpg')
+              .portfolio-box-caption
+                .portfolio-box-caption-content
+                  //.project-category.text-faded  Category 
+                  .project-name=translations.products.prod2
+          .col-lg-3.col-md-4.col-sm-6.grid-item.penice
+            a.portfolio-box
+              img.img-responsive(src='//res.cloudinary.com/giarolasavem/image/upload/v1462722074/penice_lilzyo.jpg')
+              .portfolio-box-caption
+                .portfolio-box-caption-content
+                  //.project-category.text-faded  Category 
+                  .project-name=translations.products.prod3
+          .col-lg-3.col-md-4.col-sm-6.grid-item
+            a.portfolio-box
+              img.img-responsive(src='//res.cloudinary.com/giarolasavem/image/upload/v1462722094/grappa_moscato_p1sb6b.jpg')
+              .portfolio-box-caption
+                .portfolio-box-caption-content
+                  //.project-category.text-faded  Category 
+                  .project-name=translations.products.prod4
+          .col-lg-3.col-md-4.col-sm-6.grid-item.marsala
+            a.portfolio-box
+              img.img-responsive(src='//res.cloudinary.com/giarolasavem/image/upload/v1462263806/MarsalaSecco_jr5tkp.jpg')
+              .portfolio-box-caption
+                .portfolio-box-caption-content
+                  //.project-category.text-faded  Category 
+                  .project-name=translations.products.prod5
+          .col-lg-3.col-md-4.col-sm-6.grid-item
+            a.portfolio-box
+              img.img-responsive(src='//res.cloudinary.com/giarolasavem/image/upload/v1462739641/sambuca_qarnd27.jpg')
+              .portfolio-box-caption
+                .portfolio-box-caption-content
+                  //.project-category.text-faded  Category 
+                  .project-name=translations.products.prod6
+
+    footer
+      .container
+        .row
+          .col-lg-8.col-lg-offset-2.text-center
+            h2.section-heading=translations.contact.title
+            hr.primary
+            p!=translations.contact.longSentence
+          .col-lg-4.text-center
+            i.fa.fa-phone.fa-3x.wow.bounceIn
+            p (+39) 0523 820446
+          .col-lg-4.text-center
+            i.fa.fa-fax.fa-3x.wow.bounceIn
+            p (+39) 0523 820225
+          .col-lg-4.text-center
+            a(href=translations.contact.emailHref)
+              i.fa.fa-envelope-o.fa-3x.wow.bounceIn(data-wow-delay='.1s')
+              p
+                | info@giarolasavem.com
+          .col-lg-8.col-lg-offset-2.text-center
+            hr.primary
+            br
+            h2
+              img(src='//res.cloudinary.com/giarolasavem/image/upload/v1462263806/Logo1918R_apjgnq.svg')
+            p!=translations.contact.finalSentence
+
+    
+
+    script(src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
+    script(src='//netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js')
+    script(src='//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js')
+    script(src='//cdnjs.cloudflare.com/ajax/libs/FitText.js/1.2.0/jquery.fittext.min.js')
+    script(src='//cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js')
+    script(src='//unpkg.com/isotope-layout@3.0/dist/isotope.pkgd.min.js')
+    script(type='text/javascript', src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA')
+    script(src='/js/creative.js')
+
+    script
+      | var $grid = $('.grid').isotope({itemSelector: '.grid-item',layoutMode: 'fitRows'});
+      | $('.isotope-filters').on( 'click', 'a', function(e) { 
+      | $('.btn-transparent-filter-active').removeClass('btn-transparent-filter-active'); $(this).addClass('btn-transparent-filter-active'); 
+      | var filterValue = $(this).attr('data-filter'); $grid.isotope({ filter: filterValue }); e.preventDefault(); });
